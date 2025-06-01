@@ -1,2 +1,42 @@
-# CryptoBuddyBot
-This crypto chatbot mimics basic AI by using logic to match user questions with a dataset of coins. It uses conditions and decision rules to recommend cryptos based on trends and sustainability. Though simple, it simulates intelligent conversation through structured reasoning and pattern matching.
+# 🪙 CryptoBuddyBot
+
+A beginner-friendly chatbot that helps users explore and choose cryptocurrencies based on sustainability and market trends.
+
+---
+
+## 🚀 What It Does
+
+CryptoBuddyBot uses a simple rule-based logic to:
+- Recommend trending cryptocurrencies
+- Identify the most sustainable coin
+- Help users make basic decisions using predefined data
+
+It mimics AI by:
+- Recognizing keywords in user input
+- Using if-else logic to respond with meaningful advice
+
+---
+
+## 📊 Sample Data
+
+```python
+crypto_db = {
+    "Bitcoin": {
+        "price_trend": "rising",
+        "market_cap": "high",
+        "energy_use": "high",
+        "sustainability_score": 3/10
+    },
+    "Ethereum": {
+        "price_trend": "stable",
+        "market_cap": "high",
+        "energy_use": "medium",
+        "sustainability_score": 6/10
+    },
+    "Cardano": {
+        "price_trend": "rising",
+        "market_cap": "medium",
+        "energy_use": "low",
+        "sustainability_score": 8/10
+    }
+}
