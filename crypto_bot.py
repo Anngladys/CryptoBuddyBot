@@ -16,7 +16,25 @@ crypto_db = {
         "market_cap": "medium",
         "energy_use": "low",
         "sustainability_score": 8/10
-    }
+    },
+    "Solana": {
+        "price_trend": "rising",
+        "market_cap": "medium",
+        "energy_use": "low",
+        "sustainability_score": 7/10
+    },
+    "Polkadot": {
+        "price_trend": "stable",
+        "market_cap": "medium",
+        "energy_use": "low",
+        "sustainability_score": 7/10
+    },
+    "Ripple": {
+        "price_trend": "rising",
+        "market_cap": "high",
+        "energy_use": "low",
+        "sustainability_score": 9/10
+    },
 }
 bot_name = "CryptoBuddy"
 bot_tone = "🌟 Hey there! I’m CryptoBuddy – your guide to green and growing crypto! Let’s find your best match."
