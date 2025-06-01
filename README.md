@@ -40,3 +40,7 @@ crypto_db = {
         "sustainability_score": 8/10
     }
 }
+## How to Run
+- Install Python 3.x
+- Open terminal or command prompt
+- Run: `python crypto_bot.py`
